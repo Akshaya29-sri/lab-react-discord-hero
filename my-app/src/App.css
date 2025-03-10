@@ -1,0 +1,67 @@
+.navbar{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 50px;
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%
+}
+.logo{
+  width:150px;
+}
+.menu-icon{
+  width:40px;
+  position:absolute;
+  top:20px;
+  right:50px;
+  
+}
+.hero{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:50px;
+  height:80vh;
+}
+.hero-content{
+  max-width:600px;
+}
+.hero h1{
+  font-family: 'Poppins',sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  color:white;
+
+}
+.hero p{
+  font-family: 'Roboto',sans-serif;
+  font-size:1.2rem;
+  font-weight: 400;
+  margin:20px 0;
+  color:white
+}
+.hero-buttons{
+  display:flex;
+  gap:10px;
+}
+.download-btn, .browser-btn{
+  padding: 12px 20px;
+  border-radius: 25px;
+  font-size:1rem;
+  font-family: 'Roboto',sans-serif;
+}
+.download-btn{
+  background-color: white;
+  color:black;
+  border:none;
+}
+.browser-btn{
+  background-color: black;
+  color:white;
+  border:none;
+}
+.hero-image img{
+  width:400px;
+}
